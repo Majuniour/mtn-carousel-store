@@ -1,0 +1,110 @@
+
+.container {
+    width: 80%;
+    margin: 2em auto;
+    position: relative;
+    .carouselWrapper {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 9em;
+        position: relative;
+        border-radius: 5px;
+        background-color: #F8F8F8;
+        .active {
+            background-color: red;
+        }
+        .title{
+            padding: 5%;
+            font-weight: bold;
+            color: white;
+        }
+        .title-more{
+            padding: 5%;
+        }
+    }
+    .nav {
+        display: flex;
+        justify-content:space-evenly;   
+    }
+    span {
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+    }
+}
+img {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+.btn{
+    height: 30px;
+    border-width: 0px;
+    background-color: #E9E9E9;
+    cursor: hand;
+}
+.carouselWrapper.active{
+    background-color: #272727;
+}
+
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.react-multi-carousel-list {
+    top: 5em;
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 0px !important;
+    border-style: outset;
+    border-color: none !important;
+    border-image: initial;
+}
+.t1{
+    margin: 0px !important;
+    position: relative;
+    top: 3em;
+    z-index: 1;
+}
+.t2{
+    margin: 0px !important;
+    position: relative;
+    top: 6em;
+    z-index: 1;
+    text-transform: uppercase;
+}
+.imgH{
+    top: 2em;
+    position: relative;
+    width: 40%;
+    height: auto;
+}
+.welcome{
+    position: relative;
+    left: 30%;
+    top:5em
+}
